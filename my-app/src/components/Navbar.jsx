@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import '../styles/Navbar.css'
 
 const Navbar = () => {
@@ -13,10 +14,10 @@ const Navbar = () => {
           <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul className="navbar-nav mb-2 mb-lg-0">
             <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                <Link to="/"> <a className="nav-link active" aria-current="page" href="/"> Home </a> </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">About Us</a>
+                <Link to="/aboutus"> <a className="nav-link" href="/aboutus"> About Us </a> </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">Cyber Threats</a>

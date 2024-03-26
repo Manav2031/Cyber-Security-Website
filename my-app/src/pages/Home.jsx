@@ -1,17 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import backgroundImage from "../images/cybersec2.jpg";
-import Navbar from "../components/Navbar";
 import Centredtext from "../components/Centredtext";
 import "../styles/Navbar.css";
 import "../styles/Home.css";
 
 const Home = () => {
+  useEffect(() => {
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, []);
+
   return (
-    <div
-      className="home-container"
-      style={{ backgroundImage: `url(${backgroundImage})` }}
-    >
-      <Navbar />
+    <div className="home-container" style={{ backgroundImage: `url(${backgroundImage})` }}>
       <Centredtext />
       <div className="left-aligned-text">
         <h2>AAA'S OF CYBER SECURITY</h2>
