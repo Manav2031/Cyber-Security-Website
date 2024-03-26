@@ -1,0 +1,14 @@
+.home-container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+.left-aligned-text {
+    margin-top: -150px;
+    color: #fff;
+    text-align: left;
+    margin-left: 20px;
+  }
+  
+  

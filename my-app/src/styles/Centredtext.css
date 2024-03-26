@@ -1,0 +1,15 @@
+.centered-text {
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+  }
+  
+  .centered-text h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  
