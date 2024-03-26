@@ -1,8 +1,12 @@
 import React from 'react'
+import backgroundImage from "../images/cybersec2.jpg";
+import '../styles/Aboutus.css';
 
 const Aboutus = () => {
   return (
-    <div>Aboutus</div>
+    <div className="aboutus-container">
+      <div className="background-image" style={{ backgroundImage: `url(${backgroundImage})` }}></div>
+    </div>
   )
 }
 

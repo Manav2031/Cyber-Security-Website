@@ -1,14 +1,7 @@
-.home-container {
+.aboutus-container {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-  }
-
-.left-aligned-text {
-    margin-top: -150px;
-    color: #fff;
-    text-align: left;
-    margin-left: 20px;
   }
 
   .background-image {
@@ -20,6 +13,3 @@
     z-index: -1;
     background-size: cover;
   }
-  
-  
-  
