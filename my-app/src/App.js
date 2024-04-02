@@ -8,6 +8,10 @@ import Phishingattacks from './pages/Phishingattacks'
 import Dosattacks from './pages/Dosattacks'
 import Zerothreats from './pages/Zerothreats'
 import Iotthreats from './pages/Iotthreats'
+import Latesttrends from './pages/Latesttrends'
+import Solutions from './pages/Solutions'
+import Faqs from './pages/Faqs'
+import Contacts from './pages/Contacts'
 
 const App = () => {
   return (
@@ -21,6 +25,10 @@ const App = () => {
       <Route path="/dosattacks" element={<Dosattacks />} />
       <Route path="/zerothreats" element={<Zerothreats />} />
       <Route path="/iotthreats" element={<Iotthreats />} />
+      <Route path="/latesttrends" element={<Latesttrends />} />
+      <Route path="/solutions" element={<Solutions />} />
+      <Route path="/faqs" element={<Faqs />} />
+      <Route path="/contacts" element={<Contacts />} />
     </Routes>
     </BrowserRouter>
   )
