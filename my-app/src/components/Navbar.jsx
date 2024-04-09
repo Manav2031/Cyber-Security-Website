@@ -17,7 +17,7 @@ const Navbar = () => {
                 <Link to="/"> <a className="nav-link" aria-current="page" href="/"> Home </a> </Link>
               </li>
               <li className="nav-item">
-                <Link to="/aboutus"> <a className="nav-link" href="/aboutus"> About Us </a> </Link>
+                <Link to="/types"> <a className="nav-link" href="/types"> Types of Cyber Security </a> </Link>
               </li>
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

@@ -2,6 +2,13 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    margin-top: 40px;
+  }
+
+  .center-aligned-text {
+    color: #fff;
+    text-align: center;
+    margin-left: 20px;
   }
 
   .background-image {
