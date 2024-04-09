@@ -9,7 +9,10 @@ import Dosattacks from './pages/Dosattacks'
 import Zerothreats from './pages/Zerothreats'
 import Iotthreats from './pages/Iotthreats'
 import Latesttrends from './pages/Latesttrends'
-import Solutions from './pages/Solutions'
+import Networksolutions from './pages/Networksolutions'
+import Endpointsolutions from './pages/Endpointsolutions'
+import Cloudsolutions from './pages/Cloudsolutions'
+import Iamsolutions from './pages/Iamsolutions'
 import Faqs from './pages/Faqs'
 import Contacts from './pages/Contacts'
 
@@ -26,7 +29,10 @@ const App = () => {
       <Route path="/zerothreats" element={<Zerothreats />} />
       <Route path="/iotthreats" element={<Iotthreats />} />
       <Route path="/latesttrends" element={<Latesttrends />} />
-      <Route path="/solutions" element={<Solutions />} />
+      <Route path="/networksolutions" element={<Networksolutions />} />
+      <Route path="/endpointsolutions" element={<Endpointsolutions />} />
+      <Route path="/cloudsolutions" element={<Cloudsolutions />} />
+      <Route path="/iamsolutions" element={<Iamsolutions />} />
       <Route path="/faqs" element={<Faqs />} />
       <Route path="/contacts" element={<Contacts />} />
     </Routes>

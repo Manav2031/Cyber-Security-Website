@@ -34,8 +34,16 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link to="/latesttrends"> <a className="nav-link" href="/latesttrends"> Latest Trends </a> </Link>
               </li>
-              <li className="nav-item">
-                <Link to="/solutions"> <a className="nav-link" href="/solutions"> Solutions </a> </Link>
+              <li className="nav-item dropdown">
+                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Solutions
+                </a>
+                <ul className="dropdown-menu">
+                  <li> <Link to="/networksolutions"> <a className="dropdown-item" href="/networksolutions"> Network Security Solutions </a> </Link> </li>
+                  <li> <Link to="/endpointsolutions"> <a className="dropdown-item" href="/endpointsolutions"> End Point Security Solutions </a> </Link> </li>
+                  <li> <Link to="/cloudsolutions"> <a className="dropdown-item" href="/cloudsolutions"> Cloud Security Solutions </a> </Link> </li>
+                  <li> <Link to="/iamsolutions"> <a className="dropdown-item" href="/iamsolutions"> Identity & Access <br /> Management (IAM) Solutions </a> </Link> </li>
+                </ul>
               </li>
               <li className="nav-item">
                 <Link to="/faqs"> <a className="nav-link" href="/faqs"> FAQ'S </a> </Link>

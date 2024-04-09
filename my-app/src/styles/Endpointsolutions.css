@@ -1,0 +1,21 @@
+.endpointsolutions-container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+.endpointsolutions-container h1, .endpointsolutions-container h4 {
+  padding-top: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-size: cover;
+}
