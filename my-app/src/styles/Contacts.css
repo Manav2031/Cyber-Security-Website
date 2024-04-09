@@ -2,6 +2,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    margin-top: 40px;
+  }
+
+  h1 {
+    color: #fff;
+    text-align: center;
   }
 
   .background-image {
@@ -13,3 +19,53 @@
     z-index: -1;
     background-size: cover;
   }
+
+  .form-container {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+  }
+  
+  .form {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  button {
+    background-color: #007bff;
+    margin-right: 40px;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
