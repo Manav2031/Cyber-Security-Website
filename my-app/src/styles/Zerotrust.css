@@ -1,0 +1,33 @@
+.zerotrust-container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+.zerotrust-container h1, .zerotrust-container h4 {
+  padding-top: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image1 {
+  width: auto;
+  height: 300px;
+  margin-bottom: 80px;
+}
+
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-size: cover;
+}

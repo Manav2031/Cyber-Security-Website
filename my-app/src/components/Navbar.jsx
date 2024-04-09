@@ -31,8 +31,16 @@ const Navbar = () => {
                   <li> <Link to="/iotthreats"> <a className="dropdown-item" href="/iotthreats"> IOT Security Threats </a> </Link> </li>
                 </ul>
               </li>
-              <li className="nav-item">
-                <Link to="/latesttrends"> <a className="nav-link" href="/latesttrends"> Latest Trends </a> </Link>
+              <li className="nav-item dropdown">
+                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Latest Trends
+                </a>
+                <ul className="dropdown-menu">
+                  <li> <Link to="/zerotrust"> <a className="dropdown-item" href="/zerotrust"> Zero Trust Architecture </a> </Link> </li>
+                  <li> <Link to="/aiml"> <a className="dropdown-item" href="/aiml"> AI & ML in Cybersecurity </a> </Link> </li>
+                  <li> <Link to="/edr"> <a className="dropdown-item" href="/edr"> Extended Detection & Response </a> </Link> </li>
+                  <li> <Link to="/ransomware"> <a className="dropdown-item" href="/ransomware"> Ransomware Protection Measures </a> </Link> </li>
+                </ul>
               </li>
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
